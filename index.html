@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/Z7fwYFa1osI.jpg" alt="My photo" class="avatar">
+        <h1 class="header__title">Nikita Simonov | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary> Skills list:</summary>
+
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. React</li>
+                    <li>4. TS</li>
+                    <li>5. JS</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4 class="article">Short article about me </h4>
+
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Продолжил, взобравшись вершину имени ручеек всеми агентство силуэт коварный жаренные!</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="Placehold image">
+            <img src="https://placehold.co/250x250" alt="Placehold image">
+            <img src="https://placehold.co/250x250" alt="Placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/N-Fa1tm3oz0" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+        </section>
+
+        <section class="hoobies">
+            <h4>My hoobies: </h4>
+            <details>
+                <summary>Hobbies</summary>
+                    <ol>
+                        <li>Basketball</li>
+                        <li>Football</li>
+                        <li>Dota</li>
+                    </ol>
+            </details>
+        </section>
+
+        <br>
+
+        <section class="ed">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>Mesto</th>
+                        <th>Professiya</th>
+                        <th>God</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Shkola</th>
+                        <th>Student</th>
+                        <th>2019</th>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th>University</th>
+                        <th>Electroenergy engineer</th>
+                        <th>2025</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Будь счастлив в этот миг. Этот миг и есть твоя жизнь.
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                <legend>Required fields: </legend>
+
+                    <label for="FirstNameID">First Name: </label>
+                    <input type="text" name="FirstName" id="FirstNameID" required class="form__control" placeholder="First Name">
+
+                    <label for="LastNameID">Last Name: </label>
+                    <input type="text" name="LastName" id="LastNameID" required class="form__control" placeholder="Last Name">
+
+                    <label for="EmailID">Email: </label>
+                    <input type="email" name="Email" id="EmailID" required class="form__control" placeholder="Email">
+                </fieldset>
+                <br>
+
+                <textarea name="Questions" id="QuestionsID" placeholder="Your questions..."></textarea>
+                <br>
+                <button class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <hr>
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts__links">it@mail.ru</a>
+            <br><br>
+            <a href="tel:+2121415251" class="contacts__links">+2121415251</a>
+        </address>
+    </footer>
+
+</body>
+</html>
